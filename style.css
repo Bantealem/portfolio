@@ -7,6 +7,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 .content {
   background: #fff;
   height: 80px;
@@ -65,11 +66,11 @@
   border-bottom-left-radius: 20px;
 }
 
-.section1>div>.h1 {
+.section1 > div > .h1 {
   margin-top: 100px;
 }
 
-.section1>div {
+.section1 > div {
   width: 100%;
   padding: 0 24px;
   display: flex;
@@ -77,14 +78,14 @@
   gap: 12px;
 }
 
-.section1>div>h1 {
+.section1 > div > h1 {
   font: normal normal 700 40px "Poppins", sans-serif;
   line-height: 52px;
   margin-top: 205px;
   color: #172b4d;
 }
 
-.section1>div>.paragraph {
+.section1 > div > .paragraph {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -93,7 +94,7 @@
   color: #344563;
 }
 
-.section1>div>.connect {
+.section1 > div > .connect {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -110,7 +111,7 @@
   border-radius: 10px;
 }
 
-.section1>div>.links {
+.section1 > div > .links {
   display: flex;
   gap: 19px;
   align-items: baseline;
