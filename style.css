@@ -116,6 +116,7 @@
   gap: 19px;
   align-items: baseline;
 }
+
 #work-container {
   display: grid;
   flex-direction: column;
@@ -123,6 +124,7 @@
   padding-top: 12px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 .container {
   display: flex;
   background-color: rgb(255, 255, 255);
