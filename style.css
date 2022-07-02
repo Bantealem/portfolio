@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.content {
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-branding {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #6070ff;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-item {
+  display: none;
+}
+
+.content2 {
+  display: block;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+  background-color: #6070ff;
+}
+
+.section1 {
+  background-image: url("assets/images/background-image.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-clip: padding-box;
+  object-fit: contain;
+  padding-bottom: 138px;
+  margin-bottom: 114px;
+  border-bottom-left-radius: 20px;
+}
+
+.section1 > div > .h1 {
+  margin-top: 100px;
+}
+
+.section1 > div {
+  width: 100%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section1 > div > h1 {
+  font: normal normal 700 40px "Poppins", sans-serif;
+  line-height: 52px;
+  margin-top: 205px;
+  color: #172b4d;
+}
+
+.section1 > div > .paragraph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.section1 > div > .connect {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.links {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 12px 0;
+  border-radius: 10px;
+}
+
+.section1 > div > .links {
+  display: flex;
+  gap: 19px;
+  align-items: baseline;
+}
