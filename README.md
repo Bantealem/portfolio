@@ -1,6 +1,7 @@
 # Portfolio-setup-and-mobile-version-skeleton
 
-Set up of my personal portfolio project! <br>
+Set up of my personal portfolio project!  <br>
+This portfolio website is a key job searching tool for a web developer. 
 Link to portfolio:
 
 
@@ -12,8 +13,8 @@ Link to portfolio:
 
 ## Getting Started
  Inorder to be able to set this up locally and eventually run it, follow the steps;
-- Open your Gitbash or your code editor's terminal and run the command git clone git@github.com:Elijahdre/My-Portfolio.git
-- Then you can pull the work from github to ur local machine using the git pull command.
+- Open your Gitbash or your code editor's terminal and run the command git clone https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton
+- Then you can pull the work from github to Your local machine using the git pull command.
 
 
 
