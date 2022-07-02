@@ -116,6 +116,7 @@
   gap: 19px;
   align-items: baseline;
 }
+
 /* #work-container {
   display: grid;
   flex-direction: column;
@@ -154,11 +155,11 @@
   flex-direction: column;
 }
 
-.container>figure {
+.container > figure {
   margin: 0 16px;
 }
 
-.container>figure>img {
+.container > figure > img {
   width: 100%;
 }
 
@@ -170,7 +171,7 @@
   gap: 20px;
 }
 
-.Project-one-header>h4 {
+.Project-one-header > h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -192,7 +193,7 @@
   font-weight: 500;
 }
 
-.project-description>.project1-text {
+.project-description > .project1-text {
   position: static;
   width: 55px;
   height: 16px;
@@ -206,7 +207,7 @@
   color: #344563;
 }
 
-.project-description>.Project1-text2 {
+.project-description > .Project1-text2 {
   position: static;
   width: 99px;
   height: 16px;
@@ -220,7 +221,7 @@
   color: #7a869a;
 }
 
-.project-description>.Project1-text3 {
+.project-description > .Project1-text3 {
   position: static;
   width: 29px;
   height: 16px;
@@ -254,7 +255,7 @@
   float: initial;
 }
 
-.Project1-languages>.lang1 {
+.Project1-languages > .lang1 {
   float: left;
   width: 53px;
   height: 24px;
@@ -266,7 +267,7 @@
   background: #ebebff;
 }
 
-.Project1-languages>.lang2 {
+.Project1-languages > .lang2 {
   float: left;
   width: 40px;
   height: 24px;
@@ -278,7 +279,7 @@
   background: #ebebff;
 }
 
-.Project1-languages>.lang3 {
+.Project1-languages > .lang3 {
   float: right;
   width: 95px;
   height: 24px;
@@ -367,7 +368,7 @@
   margin: 12px 0;
 }
 
-#about-container>a {
+#about-container > a {
   text-decoration: none;
 }
 
@@ -427,7 +428,7 @@
   padding-bottom: 24px;
 }
 
-.programming-languages3>.menu1 {
+.programming-languages3 > .menu1 {
   padding-top: 50px;
   height: 24px;
   left: 12px;
