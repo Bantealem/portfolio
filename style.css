@@ -55,7 +55,7 @@
 }
 
 .section1 {
-  background-image: url("assets/images/background-image.svg");
+  background-image: url("background-image.svg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: auto;
@@ -457,4 +457,105 @@
 
 .icon {
   margin-right: 20px;
+}
+.contact{
+  width: 100%;
+  background: #6070ff;
+  background-image: url(.Contact-me.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 143px 11px;
+  border-top-left-radius: 80px;
+  margin-top: -70px;
+  padding: 103px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+}
+.contact-1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px
+}
+.contact #contact-me{
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.contact  #contact-messeage{
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 28px;
+ text-align: center;
+ color: #ebebff;
+}
+.contact ul{
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ align-items: center;
+}
+.contact.my-contact-form {
+ margin-top: 20px;
+ order: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 14px;
+ padding-left: 0;
+}
+#name,
+#email,
+#messages {
+  outline: none;
+}
+input,
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.contact.input-data{
+  width: 327px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+}
+.contact #user-name,
+#email-addres {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  width: 180px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.contact input::placeholder {
+  color: #172b4d;
+}
+
+.contact textarea::placeholder {
+  color: #b3bac5;
+}
+.contact textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  resize: none;
 }
