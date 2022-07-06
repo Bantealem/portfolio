@@ -505,7 +505,7 @@
  gap: 12px;
  align-items: center;
 }
-.contact.my-contact-form {
+.contact .my-contact-form {
  margin-top: 20px;
  order: 1;
  display: flex;
@@ -526,7 +526,7 @@ textarea {
   border-left-style: hidden;
   border-bottom-style: hidden;
 }
-.contact.input-data{
+.contact .input-data{
   width: 327px;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -534,13 +534,11 @@ textarea {
   padding: 15px 38px 15px 16px;
 }
 .contact #user-name,
-#email-addres {
+#email{
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  width: 180px;
-  height: 48px;
   display: flex;
   align-items: center;
 }
