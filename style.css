@@ -233,7 +233,9 @@
   list-style: none;
   float: initial;
 }
-
+li{
+  float: left;
+}
 .Project1-languages > .lang1 {
   float: left;
   width: 53px;
@@ -500,7 +502,7 @@
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  font-family: "Poppins", sans-serif;
+  font-family:  "Poppins", sans-serif;
 }
 
 .contact ul {
@@ -537,7 +539,7 @@ textarea {
   right: 38px;
   top: 15px;
   bottom: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -580,7 +582,8 @@ textarea {
 .first-button {
   width: 108px;
   height: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
