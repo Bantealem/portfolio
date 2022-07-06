@@ -12,7 +12,6 @@
   background: #fff;
   height: 80px;
   width: 100%;
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -492,11 +491,12 @@
 }
 .contact  #contact-messeage{
  font-style: normal;
- font-weight: 500;
+ font-weight: 400;
  font-size: 20px;
  line-height: 28px;
  text-align: center;
  color: #ebebff;
+ font-family: 'poppins', 'sans-serif';
 }
 .contact ul{
  list-style-type: none;
