@@ -474,51 +474,21 @@ body {
 .contact {
   width: 100%;
   background: #6070ff;
-  background-image: url(.Contact-me.png);
+  background-image: url(contact-form-image.png), url(contact-form-image.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 143px 11px;
+  background-position: top right, bottom right;
   border-top-left-radius: 80px;
   margin-top: -70px;
-  padding: 103px 12px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
   align-items: center;
+  text-align: center;
+  padding-top: 150px;
+  box-sizing: border-box;
 }
-
-.icon-1 {
-  margin-right: 153px;
-  margin-top: 55;
-}
-
-.icon-2 {
-  margin-left: 310px;
-  margin-top: 21;
-}
-
-.icon-3 {
-  margin-left: 328px;
-  margin-top: 48.75;
-}
-
-.icon-4 {
-  margin-left: 253px;
-  margin-bottom: 58px;
-}
-
-.icon-5 {
-  margin-left: 258px;
-  margin-bottom: 58px;
-}
-
-.contact-1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 12px;
-}
-
 .contact #contact-me {
   color: #fff;
   font-style: normal;
