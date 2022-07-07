@@ -5,10 +5,20 @@ This portfolio website is a key job searching tool for a web developer.
 Link to portfolio:
 
 
+
 ## Built With
 
 - HTML
 - CSS
+
+
+## Screenshots
+
+### About myself
+![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture.PNG?raw=true)
+### Contact me
+![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture-6.PNG?raw=true)
+
 
 
 ## Getting Started
