@@ -473,26 +473,32 @@
   gap: 100px;
   align-items: center;
 }
-.icon-1{
- margin-right: 153px;
- margin-top: 55;
+
+.icon-1 {
+  margin-right: 153px;
+  margin-top: 55;
 }
-.icon-2{
- margin-left: 310px;
- margin-top: 21;
+
+.icon-2 {
+  margin-left: 310px;
+  margin-top: 21;
 }
-.icon-3{
+
+.icon-3 {
   margin-left: 328px;
   margin-top: 48.75;
 }
-.icon-4{
+
+.icon-4 {
   margin-left: 253px;
   margin-bottom: 58px;
 }
-.icon-5{
- margin-left: 258px;
- margin-bottom: 58px;
+
+.icon-5 {
+  margin-left: 258px;
+  margin-bottom: 58px;
 }
+
 .contact-1 {
   display: flex;
   justify-content: center;
@@ -571,6 +577,7 @@ textarea {
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
 }
+
 .contact .input-datas {
   width: 327px;
   height: 170px;
@@ -579,6 +586,7 @@ textarea {
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
 }
+
 .contact #user-name,
 #email-addres {
   font-style: normal;
@@ -603,7 +611,8 @@ textarea {
   line-height: 24px;
   resize: none;
 }
-.contact .first-button{
+
+.contact .first-button {
   width: 124px;
   height: 48px;
   display: flex;
