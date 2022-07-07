@@ -8,6 +8,19 @@
   list-style: none;
 }
 
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  overflow-x: hidden;
+  background: #e5e5e5;
+  position: absolute;
+  width: 100%;
+}
+
 .content {
   background: #fff;
   height: 80px;
@@ -470,7 +483,7 @@
   padding: 103px 12px;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 15px;
   align-items: center;
 }
 
