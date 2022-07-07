@@ -12,6 +12,15 @@ Link to portfolio:
 - CSS
 
 
+## Screenshots
+
+### About myself
+![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture.PNG?raw=true)
+### Contact me
+![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture-6.PNG?raw=true)
+
+
+
 ## Getting Started
  Inorder to be able to set this up locally and eventually run it, follow the steps;
 - Open your Gitbash or your code editor's terminal and run the command git clone https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton
