@@ -531,7 +531,7 @@ body {
   padding-left: 0;
 }
 
-#name,
+#names,
 #email,
 #messages {
   outline: none;
@@ -571,11 +571,16 @@ textarea {
   padding: 15px 38px 15px 16px;
 }
 
-.contact #user-name,
-#email-addres {
+.contact #names,
+#mail {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact #messages {
   display: flex;
   align-items: center;
 }
