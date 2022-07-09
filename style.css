@@ -78,7 +78,7 @@ body {
   border-bottom-left-radius: 20px;
 }
 
-.section1 > div > .h1 {
+.section1 > div > .final {
   margin-top: 100px;
 }
 
@@ -844,54 +844,68 @@ textarea {
     font-weight: 500;
     font-size: 17px;
   }
- 
- @keyframes h1 {
-   0% {
-     color: #ff7fbf;
-   }
 
-   10% {
-     color: #44e795;
-   }
+  .final {
+    font-size: 48px;
+    font-weight: 700;
+    width: auto;
+    color: #172b4d;
+    line-height: 60px;
+    padding-right: 20px;
+    letter-spacing: 0.37px;
+    cursor: pointer;
+    animation-name: salutation;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+  }
 
-   20% {
-     color: blueviolet;
-   }
+  @keyframes final {
+    0% {
+      color: #ff7fbf;
+    }
 
-   30% {
-     color: rgb(0, 255, 13);
-   }
+    10% {
+      color: #44e795;
+    }
 
-   40% {
-     color: rgb(0, 255, 98);
-   }
+    20% {
+      color: blueviolet;
+    }
 
-   50% {
-     color: green;
-   }
+    30% {
+      color: rgb(0, 255, 13);
+    }
 
-   60% {
-     color: #c5b3c4;
-   }
+    40% {
+      color: rgb(0, 255, 98);
+    }
 
-   70% {
-     color: coral;
-   }
+    50% {
+      color: green;
+    }
 
-   80% {
-     color: teal;
-   }
+    60% {
+      color: #c5b3c4;
+    }
 
-   90% {
-     color: burlywood;
-   }
+    70% {
+      color: coral;
+    }
 
-   100% {
-     color: rgb(0, 255, 0);
-   }
- }
- 
+    80% {
+      color: teal;
+    }
+
+    90% {
+      color: burlywood;
+    }
+
+    100% {
+      color: rgb(0, 255, 0);
+    }
+  }
 }
-
-
-
