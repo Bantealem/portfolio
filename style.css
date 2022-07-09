@@ -709,6 +709,7 @@ textarea {
     width: 80%;
     margin: 70px auto 70px auto;
     padding: 0;
+    justify-content: center;
   }
 
   .programming-lang {
