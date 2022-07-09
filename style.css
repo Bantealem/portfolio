@@ -705,7 +705,7 @@ textarea {
     width: 100%;
   }
 
-  #about-container {
+  .about-container {
     width: 80%;
     margin: 70px auto 70px auto;
     padding: 0;
