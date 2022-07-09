@@ -844,4 +844,54 @@ textarea {
     font-weight: 500;
     font-size: 17px;
   }
+ 
+ @keyframes h1 {
+   0% {
+     color: #ff7fbf;
+   }
+
+   10% {
+     color: #44e795;
+   }
+
+   20% {
+     color: blueviolet;
+   }
+
+   30% {
+     color: rgb(0, 255, 13);
+   }
+
+   40% {
+     color: rgb(0, 255, 98);
+   }
+
+   50% {
+     color: green;
+   }
+
+   60% {
+     color: #c5b3c4;
+   }
+
+   70% {
+     color: coral;
+   }
+
+   80% {
+     color: teal;
+   }
+
+   90% {
+     color: rgb(28, 0, 128);
+   }
+
+   100% {
+     color: rgb(0, 255, 0);
+   }
+ }
+ 
 }
+
+
+
