@@ -26,7 +26,15 @@ Link to portfolio:
 - Open your Gitbash or your code editor's terminal and run the command git clone https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton
 - Then you can pull the work from github to Your local machine using the git pull command.
 
+## Deployment
 
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+https://bantealem.github.io/Portfolio-setup-and-mobile-version-skeleton/
 
 ## Author
 
