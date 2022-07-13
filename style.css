@@ -16,7 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: auto;
   overflow-x: hidden;
-  background: #e5e5e5;
+  background: #fff;
   position: absolute;
   width: 100%;
 }
@@ -112,7 +112,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #001aff;
 }
 
 .links {
@@ -210,7 +210,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #373f49;
 }
 
 .project-description > .Project1-text3 {
@@ -224,7 +224,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #323843;
 }
 
 .project-requirement {
@@ -255,7 +255,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  color: #6070ff;
+  color: #0017e6;
   background: #ebebff;
 }
 
@@ -267,7 +267,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  color: #6070ff;
+  color: #0013bd;
   background: #ebebff;
 }
 
@@ -279,7 +279,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  color: #6070ff;
+  color: #0017eb;
   background: #ebebff;
 }
 
@@ -295,7 +295,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #0015d1;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -375,7 +375,7 @@ body {
   font-weight: 100;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #0016e0;
 }
 
 .icons {
@@ -395,7 +395,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #0016db;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
@@ -473,7 +473,7 @@ body {
 
 .contact {
   width: 100%;
-  background: #6070ff;
+  background: #8a95ff;
   background-image: url(contact-form-image.png), url(contact-form-image.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -509,7 +509,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -571,6 +571,17 @@ textarea {
   padding: 15px 38px 15px 16px;
 }
 
+.input-data .name1 {
+  font-size: 18px;
+  color: #333;
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: right;
+  clear: both;
+}
+
 .contact #names,
 #mail {
   font-style: normal;
@@ -613,7 +624,7 @@ textarea {
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 2px solid #6070ff;
-  color: #6070ff;
+  color: #0016db;
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 8px;
