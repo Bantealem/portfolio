@@ -1,4 +1,4 @@
-const hamburgerMenu = document.querySelector('.menu-icon');
+const hamburgerMenu = document.querySelector('.content2');
 const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
 const mobileClose = document.querySelector('.mobile-menu-close');
 hamburgerMenu.addEventListener('click', () => {
@@ -6,7 +6,6 @@ hamburgerMenu.addEventListener('click', () => {
   document.querySelector('.mobile-menu').style.display = 'flex';
 });
 mobileClose.addEventListener('click', () => {
-    console.log("hello")
   // show the mobile menu
   document.querySelector('.mobile-menu').style.display = 'none';
 });
