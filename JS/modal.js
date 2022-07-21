@@ -59,27 +59,31 @@ const works = [
   },
 ];
 
-const breadcrumbsHtml = (workObj, key, bread) => {
+const breadcrumbsHtml = (workObj, key, bread = "") => {
   /* eslint-disable no-restricted-syntax */
   for (const breadcrumb in workObj[key].breadcrumbs) {
     if (breadcrumb) {
-      bread = `<li>${workObj[key].breadcrumbs[breadcrumb]}</li>`;
+      bread += `<li>${workObj[key].breadcrumbs[breadcrumb]}</li>`;
     }
   }
   /* eslint-enable no-restricted-syntax */
   return bread;
 };
 
-const languageHtml = (workObj, key, langList) => {
+const languageHtml = (workObj, key, langList = "") => {
   /* eslint-disable no-restricted-syntax */
   for (const lang in workObj[key].lang_list) {
     if (lang) {
-      langList = `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
+      langList += `<li><span>${workObj[key].lang_list[lang]}</span></li>`;
     }
   }
   /* eslint-enable no-restricted-syntax */
   return langList;
 };
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// if I want the first value which is 1, I can use arr[0]
+
 
 const showWorkModal = (work) => { // fetch the work from the works object
   const workDetails = works[work];
