@@ -339,7 +339,7 @@
             to help with it.
           </p>
           <form
-            action="https://formspree.io/f/xbjwpyjb"
+            action="https://formspree.io/f/xrgjnypg"
             method="POST"
             class="my-contact-form"
           >
@@ -352,6 +352,7 @@
                   maxlength="30"
                   placeholder="Enter your name"
                   required
+                  data-field="user-name"
                 />
               </li>
               <li class="input-data">
@@ -361,6 +362,7 @@
                   name="email-addres"
                   placeholder="Enter your Email"
                   required
+                  data-field="email-addres"
                 />
               </li>
               <li class="input-datas">
@@ -370,8 +372,10 @@
                   maxlength="500"
                   placeholder="write your message here..."
                   required
+                  data-field="taxts"
                 ></textarea>
               </li>
+              <span class="error" aria-live="polite"></span>
             </ul>
             <button type="submit" class="first-button">Get In Touch</button>
           </form>
@@ -476,8 +480,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <script src="./JS/menu.js"></script>
-    <script src="./JS/modal.js"></script>
-  </body>
+     </div>
+      <script src="./JS/menu.js"></script>
+      <script src="./JS/modal.js"></script>
+      <script src="./js/form-validation.js"></script>
+    </body>
 </html>
