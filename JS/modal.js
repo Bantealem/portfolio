@@ -81,20 +81,16 @@ const languageHtml = (workObj, key, langList = "") => {
   return langList;
 };
 
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// if I want the first value which is 1, I can use arr[0]
-
-
-const showWorkModal = (work) => { // fetch the work from the works object
+const showWorkModal = (work) => { 
   const workDetails = works[work];
-  document.querySelector('.modal-title').innerHTML = workDetails.title; // insert title to the modal
-  document.querySelector('.featured-image').src = workDetails.featured_image;// insert image to the modal
-  document.querySelector('.modal-description').innerHTML = workDetails.details; // insert description to the modal
-  document.querySelector('.work-modal-breadcrumbs > ul').innerHTML = breadcrumbsHtml(works, work); // add the breadcrumbs to the modal
-  document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(works, work);// add the languages to the modal
-  document.querySelector('#work-modal-live-demo').href = workDetails.live_demo;// add live demo link
-  document.querySelector('#work-modal-source').href = workDetails.source;// add source link
-  document.querySelector('.modal').style.display = 'flex';// show the modal with transition
+  document.querySelector('.modal-title').innerHTML = workDetails.title;
+  document.querySelector('.featured-image').src = workDetails.featured_image;
+  document.querySelector('.modal-description').innerHTML = workDetails.details; 
+  document.querySelector('.work-modal-breadcrumbs > ul').innerHTML = breadcrumbsHtml(works, work);
+  document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(works, work);
+  document.querySelector('#work-modal-live-demo').href = workDetails.live_demo;
+  document.querySelector('#work-modal-source').href = workDetails.source;
+  document.querySelector('.modal').style.display = 'flex';
 };
 
 const seeProjectButtons = document.querySelectorAll('.project-btn');
@@ -110,4 +106,3 @@ seeProjectButtons.forEach((button) => {
 closeModal.addEventListener('click', () => {
   document.querySelector('.modal').style.display = 'none';
 });
-
