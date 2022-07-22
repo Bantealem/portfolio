@@ -1098,6 +1098,28 @@ textarea {
     animation-play-state: running;
   }
 
+  .modal {
+    overflow: scroll;
+    align-items: center;
+    padding: 4.25rem;
+  }
+
+  .modal-wrap {
+    width: 80%;
+    height: auto;
+    overflow: unset;
+  }
+
+  .modal-content-wrapper {
+    gap: 2rem;
+  }
+
+  .modal-content-text {
+    flex-direction: row;
+    gap: 2.25rem;
+    padding-bottom: 3.875rem;
+  }
+
   @keyframes final {
     0% {
       color: #ff7fbf;
