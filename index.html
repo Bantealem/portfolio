@@ -4,30 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Bantealem</title>
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <header class="me">
-      <nav class="content">
-        <a href="#" class="nav-branding">Bantealem</a>
 
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Mobile Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contacts</a>
-          </li>
-        </ul>
-        <div class="content2">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo-text font-style">Bantealem</a>
+        <span class="menu">
+          <a href="#" class="nav-link">Portfolio</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </span>
+        <img
+          class="menu-icon"
+          src="./assets/images/Enabled.png"
+          alt="Menu icon"
+        />
       </nav>
       <div class="mobile-menu flex">
         <span class="mobile-menu-close flex">
@@ -46,433 +46,353 @@
             />
           </svg>
         </span>
-        <a href="#work-container" class="mobile-nav-item">Portfolio</a>
+        <a href="#portfolio" class="mobile-nav-item">Portfolio</a>
         <a href="#about" class="mobile-nav-item">About</a>
         <a href="#contact" class="mobile-nav-item">Contact</a>
       </div>
     </header>
     <main class="container">
-      <section class="section1">
-        <div>
-          <h1 class="final">
-            I’m Bantealem <br />
-            Glad to see <br />you!
-          </h1>
-          <p class="paragraph">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
+      <div class="main">
+        <h1 class="main-heading font-style">I'm Bantealem Glad to see you!</h1>
+        <p class="main-description font-style">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <section>
+          <h4 class="main-connect color font-style">Let's connect</h4>
+          <div class="main-socials-1">
+            <a class="socials" href="https://twitter.com/BantealemG">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-twitter icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+            </a>
+            <a
+              class="socials"
+              href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-linkedin icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+            </a>
+            <a class="socials" href="">
+              <img
+                src="./assets/images/Vector-1.png"
+                alt="Medium icon"
+                class="medium"
+              />
+            </a>
+            <a class="socials" href="https://github.com/Bantealem">
+              <img src="./assets/images/Vector-4.png" alt="Github icon" />
+            </a>
+          </div>
+        </section>
+      </div>
+      <div class="main-projects">
+        <!-- first card -->
+      </div>
+      <!-- About section -->
+      <section id="about" class="about">
+        <div class="about-description">
+          <h2 class="font-style">
+            About <br />
+            Myself
+          </h2>
+          <p class="font-style">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
-          <p class="connect">LET'S CONNECT</p>
-          <ul id="social-media" class="links">
+          <h4 class="main-connect color connect-text font-style">
+            Let's connect
+          </h4>
+          <ul class="main-socials connect-text">
             <li>
-              <a href="https://twitter.com/BantealemG"
-                ><img src="twitter.svg" alt="Twitter"
-              /></a>
+              <a class="socials" href="https://twitter.com/BantealemG">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23"
+                  height="23"
+                  fill="currentColor"
+                  class="bi bi-twitter icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                  />
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
-                ><img src="linkedin.svg" alt="Linkedin"
-              /></a>
+              <a
+                class="socials"
+                href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="23"
+                  height="23"
+                  fill="currentColor"
+                  class="bi bi-linkedin icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                  />
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
-                ><img src="Medium.svg" alt="Medium"
-              /></a>
+              <a class="socials" href="#medium">
+                <img
+                  src="./assets/images/Vector-1.png"
+                  alt="Medium icon"
+                  class="medium"
+                />
+              </a>
             </li>
             <li>
-              <a href="https://github.com/Bantealem"
-                ><img src="github.svg" alt="Github"
-              /></a>
-            </li>
-            <li>
-              <a href="https://github.com/Bantealem"
-                ><img src="angel-list.svg" alt="Angel-List"
-              /></a>
+              <a class="socials" href="https://github.com/Bantealem">
+                <img src="./assets/images/Vector-4.png" alt="Github icon" />
+              </a>
             </li>
           </ul>
+          <button type="button" class="btn">Get my resume</button>
         </div>
-      </section>
-      <section id="work-container">
-        <div class="container2">
-          <figure class="snap-shoot-one">
-            <img
-              class="project1-photo"
-              src="SnapshootPortfolio.png"
-              alt="project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>Tonic</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text2">Back End Dev</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />personalized reads; no
-              accounts or<br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn project-btn" data-work="0" type="submit">See Project</button>
-          </div>
-        </div>
-
-        <div class="container2">
-          <figure class="snap-shoot-one">
-            <img
-              class="project2-image"
-              src="Snapshoot-2.png"
-              alt="Project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>Multi-Post<br />Stories</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text2">Bad End Dev</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />personalized reads; no
-              accounts or<br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn project-btn" data-work="1" type="submit">See Project</button>
-          </div>
-        </div>
-        <div class="container2">
-          <div class="snap3"></div>
-          <figure class="snap-shoot-one">
-            <img
-              class="project3-image"
-              src="Snapshoot-3.png"
-              alt="project's image"
-            />
-          </figure>
-
-          <div class="Project-one-header">
-            <h4>Tonic</h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text2">End Dev</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />
-              personalized reads; no accounts or <br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn project-btn" data-work="2" type="submit">See Project</button>
-          </div>
-        </div>
-        <div class="container2">
-          <figure class="snap-shoot-one">
-            <img
-              class="project4-photo"
-              src="Snapshoot-4.png"
-              alt="project's image"
-            />
-          </figure>
-          <div class="Project-one-header">
-            <h4>
-              Multi-Post <br />
-              Stories
-            </h4>
-            <ul class="project-description">
-              <li class="project1-text">CANOPY</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text2">Back End Dev</li>
-              <li>
-                <img class="bullet-image" src="Counter.png" alt="bullet" />
-              </li>
-              <li class="Project1-text3">2015</li>
-            </ul>
-            <p class="project-requirement">
-              A daily selection of privately <br />
-              personalized reads; no accounts or <br />
-              sign-ups required.
-            </p>
-            <ul class="Project1-languages">
-              <li class="lang1">html</li>
-              <li class="lang2">css</li>
-              <li class="lang3">javaScript</li>
-            </ul>
-            <button class="btn project-btn" data-work="3" type="submit">See Project</button>
-          </div>
-        </div>
-      </section>
-      <section id ="about" class="about-container">
-        <div class="about-content">
-          <div class="leftblock">
-            <h2 class="title">
-              About
-              <br />Myself
-            </h2>
-            <p class="about-description">
-              Hello I’m a software developer! I can help <br />
-              you build a product, feature or website. <br />
-              Look through some of my work and <br />
-              experience! If you like what you see and <br />
-              have a project you need coded, don’t <br />
-              hestiate to contact me.
-            </p>
-            <a href="#" class="connect-one">
-              <h3>LET'S CONNECT</h3>
+        <div class="about-languages">
+          <section class="languages">
+            <a href="#" class="languages-heading">
+              <h3 class="font-style">Languages</h3>
+              <img
+                class="vector"
+                src="./assets/images/arrow-down.png"
+                alt="arrow down"
+              />
             </a>
-
-            <ul class="icons">
+            <ul class="lang">
               <li>
-                <a href="https://github.com/Bantealem" target="blank"
-                  ><img src="github.svg" alt="Github"
-                /></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
-                  target="blank"
-                  ><img src="linkedin.svg" alt="linkedin icon"
-                /></a>
+                <a class="language" href="#lang">
+                  <img
+                    src="./assets/images/Ellipse1.png"
+                    alt="javascript logo"
+                  />
+                  <h4 class="language-text javascript font-style">
+                    JavaScript
+                  </h4>
+                </a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/bantealem-geto-a301b9213/"
-                  target="blank"
-                  ><img src="angel-list.svg" alt="angellist icon"
-                /></a>
+                <a class="language m-left" href="#lang">
+                  <img src="./assets/images/Ellipse1-1.png" alt="html logo" />
+                  <h4 class="language-text html font-style">HTML</h4>
+                </a>
               </li>
               <li>
-                <a href="https://twitter.com/BantealemG" target="blank"
-                  ><img src="twitter.svg" alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/BantealemG" target="blank"
-                  ><img src="Medium.svg" alt="Medium"
-                /></a>
+                <a class="language m-left" href="#lang">
+                  <img src="./assets/images/Ellipse1-2.png" alt="css logo" />
+                  <h4 class="language-text html font-style">CSS</h4>
+                </a>
               </li>
             </ul>
-
-            <button class="btn1" type="submit">Get my resume</button>
-          </div>
-          <div class="dropdown-menu">
-            <ul class="programming-languages3">
-              <li class="menu1">
-                <p>Languages</p>
-                <img src="arrow.png" alt="arrow-down" />
-              </li>
-            </ul>
-
-            <ul class="programming-lang">
-              <li class="hero-links">
-                <img class="icon" src="Ellipse-1.png" alt="JavaScript icon" />
-                <p class="hero-sub-link">JavaScript</p>
-              </li>
-              <li class="hero-links">
-                <img class="icon" src="Ellipse-2.png" alt="HTML5 icon" />
-                <p class="hero-sub-link">HTML</p>
-              </li>
-              <li class="hero-links">
-                <img class="icon" src="Ellipse-3.png" alt="CSS3 icon" />
-                <p class="hero-sub-link">CSS</p>
-              </li>
-            </ul>
-            <ul class="programming-lang1">
-              <li class="menu1" id="frameworks">
-                <p class="framework1">Frameworks</p>
-                <img src="arrow-right.png" alt="arrow bottom icon" />
-              </li>
-            </ul>
-            <ul class="p-lang2">
-              <li class="menu1" id="skills">
-                <p class="framework1">Skills</p>
-                <img src="arrow-right.png" alt="arrow bottom icon" />
-              </li>
-            </ul>
-          </div>
+          </section>
+          <section class="frameworks">
+            <div class="framework-list">
+              <h3 class="font-style">Frameworks</h3>
+              <img
+                class="vector"
+                src="./assets/images/right-arrow.png"
+                alt="arrow right"
+              />
+            </div>
+            <div class="framework-list">
+              <h3 class="font-style">Skills</h3>
+              <img
+                class="vector"
+                src="./assets/images/right-arrow.png"
+                alt="arrow right"
+              />
+            </div>
+          </section>
         </div>
       </section>
-    </main>
-    <footer>
-      <section id="contact" class="contact">
-        <div class="contact-1">
-          <h1 id="contact-me">Contact me</h1>
-          <p id="contact-messeage">
+
+      <!-- Contact section -->
+      <footer id="contact" class="footer">
+        <div class="contact-wrapper">
+          <h2 class="contact font-style">Contact me</h2>
+          <p class="contact-description font-style">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
-            to help with it.
+            to help with it
           </p>
           <form
+            id="contact-form"
             action="https://formspree.io/f/xrgjnypg"
-            method="POST"
-            class="my-contact-form"
+            method="post"
+            class="form-wrapper" 
           >
-            <ul id="form-data">
-              <li class="input-data">
+            <fieldset class="form-fieldset">
+              <div class="form-group">
                 <input
                   type="text"
-                  id="names"
-                  name="user-name"
-                  maxlength="30"
-                  placeholder="Enter your name"
+                  name="name"
+                  id="name"
+                  class="form-input font-style"
+                  placeholder="Your name"
                   required
-                  data-field="user-name"
+                  maxlength="30"
+                  data-field="name"
                 />
-              </li>
-              <li class="input-data">
+              </div>
+              <div class="form-group">
                 <input
                   type="email"
-                  id="mail"
-                  name="email-addres"
-                  placeholder="Enter your Email"
+                  name="email"
+                  id="email"
+                  class="form-input font-style"
+                  placeholder="Your email"
                   required
-                  data-field="email-addres"
+                  data-field="email"
                 />
-              </li>
-              <li class="input-datas">
+              </div>
+              <div class="form-group">
                 <textarea
-                  id="messages"
-                  name="texts"
+                  name="message"
+                  rows="10"
+                  cols="30"
+                  id="message"
+                  class="form-input font-style"
+                  placeholder="Write your message here"
                   maxlength="500"
-                  placeholder="write your message here..."
                   required
-                  data-field="taxts"
+                  data-field="message"
                 ></textarea>
-              </li>
-            </ul>
-            <span class="error" aria-live="polite"></span>
-            <button type="submit" class="first-button">Get In Touch</button>
+                <span class="error" aria-live="polite"></span>
+              </div>
+              <div class="form-group web-centered">
+                <button
+                  type="submit"
+                  class="button button-enabled font-style contact-button"
+                >
+                  Get In Touch
+                </button>
+              </div>
+            </fieldset>
           </form>
         </div>
-      </section>
-    </footer>
-    <!-- Modal Popup -->
-    <div class="modal project-detail flex-column">
-      <div class="modal-wrap flex flex-column">
-        <div class="modal-header flex">
-          <h3 class="modal-title">Title</h3>
-          <svg
-            class="modal-close"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
-              fill="#67798E"
-            />
-          </svg>
-        </div>
-        <div class="modal-body flex flex-column">
-          <div class="modal-content flex flex-column">
-            <div class="modal-content-wrapper flex flex-column">
-              <div class="work-period work-modal-breadcrumbs">
-                <ul></ul>
-              </div>
-              <div class="flex modal-content-image">
-                <img
-                  class="width-100 featured-image"
-                  src="./desktop-img-1.png"
-                  alt="Work Image"
-                />
-              </div>
-              <div class="flex flex-column modal-content-text">
-                <p class="modal-description"></p>
-                <div class="other-details">
-                  <div class="work-modal-languages">
-                    <ul class="work-categories"></ul>
-                  </div>
-                  <div class="flex modal-content-links">
-                    <a
-                      id="work-modal-live-demo"
-                      href=""
-                      class="button button-enabled flex"
-                      >See live
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M5 12C5 8.13401 8.13401 5 12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 11.4477 20.5523 11 20 11C19.4477 11 19 11.4477 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM16 3C15.4477 3 15 3.44772 15 4C15 4.55228 15.4477 5 16 5H17.5858L11.2929 11.2929C10.9024 11.6834 10.9024 12.3166 11.2929 12.7071C11.6834 13.0976 12.3166 13.0976 12.7071 12.7071L19 6.41421V8C19 8.55228 19.4477 9 20 9C20.5523 9 21 8.55228 21 8V4C21 3.44772 20.5523 3 20 3H16Z"
-                          fill="#6070FF"
-                        />
-                      </svg>
-                    </a>
-                    <a
-                      id="work-modal-source"
-                      href="#"
-                      class="button button-enabled flex"
-                      >See source
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clip-path="url(#clip0_39_522)">
+      </footer>
+      <!-- Modal Popup -->
+      <div class="modal project-detail flex-column">
+        <div class="modal-wrap flex flex-column">
+          <div class="modal-header flex">
+            <h3 class="modal-title">Title</h3>
+            <svg
+              class="modal-close"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                fill="#67798E"
+              />
+            </svg>
+          </div>
+          <div class="modal-body flex flex-column">
+            <div class="modal-content flex flex-column">
+              <div class="modal-content-wrapper flex flex-column">
+                <div class="work-period work-modal-breadcrumbs">
+                  <ul></ul>
+                </div>
+                <div class="flex modal-content-image">
+                  <img
+                    class="width-100 featured-image"
+                    src="./assets/images/screenshot2.png"
+                    alt="Work Image"
+                  />
+                </div>
+                <div class="flex flex-column modal-content-text">
+                  <p class="modal-description"></p>
+                  <div class="other-details">
+                    <div class="work-modal-languages">
+                      <ul class="work-categories"></ul>
+                    </div>
+                    <div class="flex modal-content-links">
+                      <a
+                        id="work-modal-live-demo"
+                        href=""
+                        class="button button-enabled flex"
+                        >See live
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <path
-                            d="M20.9989 9.46114C20.9989 8.32124 20.6329 7.25043 19.9342 6.31779C20.2004 5.41969 20.2669 4.27979 20.2004 2.96718C20.1671 2.41451 19.7345 2 19.2022 2C18.9028 2 16.3741 2.03454 14.9101 3.38169C13.6458 3.1399 12.315 3.1399 11.0174 3.38169C9.58667 2.03454 7.05802 2 6.7253 2C6.19296 2 5.76042 2.41451 5.72715 2.96718C5.62734 4.27979 5.72715 5.41969 5.99333 6.31779C5.29462 7.28497 4.92863 8.35579 4.92863 9.46114C4.92863 11.8791 6.7253 14.0553 9.45358 15.0915C9.35377 15.2988 9.28723 15.5406 9.22068 15.7824C6.32604 15.4715 4.9619 12.7427 4.89536 12.639C4.66246 12.1209 4.06357 11.9136 3.56449 12.19C3.06541 12.4318 2.86578 13.0535 3.13196 13.5717C3.1985 13.7444 5.02845 17.4404 9.05432 17.8549V20.9637C9.05432 21.5509 9.48686 22 10.0525 22H15.875C16.4406 22 16.8732 21.5509 16.8732 20.9637V16.8532C16.8732 16.2314 16.7401 15.6442 16.5072 15.1261C19.2022 14.0553 20.9989 11.9136 20.9989 9.46114Z"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M5 12C5 8.13401 8.13401 5 12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 11.4477 20.5523 11 20 11C19.4477 11 19 11.4477 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM16 3C15.4477 3 15 3.44772 15 4C15 4.55228 15.4477 5 16 5H17.5858L11.2929 11.2929C10.9024 11.6834 10.9024 12.3166 11.2929 12.7071C11.6834 13.0976 12.3166 13.0976 12.7071 12.7071L19 6.41421V8C19 8.55228 19.4477 9 20 9C20.5523 9 21 8.55228 21 8V4C21 3.44772 20.5523 3 20 3H16Z"
                             fill="#6070FF"
                           />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_39_522">
-                            <rect
-                              width="18"
-                              height="20"
-                              fill="white"
-                              transform="translate(3 2)"
+                        </svg>
+                      </a>
+                      <a
+                        id="work-modal-source"
+                        href="#"
+                        class="button button-enabled flex"
+                        >See source
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_39_522)">
+                            <path
+                              d="M20.9989 9.46114C20.9989 8.32124 20.6329 7.25043 19.9342 6.31779C20.2004 5.41969 20.2669 4.27979 20.2004 2.96718C20.1671 2.41451 19.7345 2 19.2022 2C18.9028 2 16.3741 2.03454 14.9101 3.38169C13.6458 3.1399 12.315 3.1399 11.0174 3.38169C9.58667 2.03454 7.05802 2 6.7253 2C6.19296 2 5.76042 2.41451 5.72715 2.96718C5.62734 4.27979 5.72715 5.41969 5.99333 6.31779C5.29462 7.28497 4.92863 8.35579 4.92863 9.46114C4.92863 11.8791 6.7253 14.0553 9.45358 15.0915C9.35377 15.2988 9.28723 15.5406 9.22068 15.7824C6.32604 15.4715 4.9619 12.7427 4.89536 12.639C4.66246 12.1209 4.06357 11.9136 3.56449 12.19C3.06541 12.4318 2.86578 13.0535 3.13196 13.5717C3.1985 13.7444 5.02845 17.4404 9.05432 17.8549V20.9637C9.05432 21.5509 9.48686 22 10.0525 22H15.875C16.4406 22 16.8732 21.5509 16.8732 20.9637V16.8532C16.8732 16.2314 16.7401 15.6442 16.5072 15.1261C19.2022 14.0553 20.9989 11.9136 20.9989 9.46114Z"
+                              fill="#6070FF"
                             />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </a>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_39_522">
+                              <rect
+                                width="18"
+                                height="20"
+                                fill="white"
+                                transform="translate(3 2)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -480,9 +400,11 @@
           </div>
         </div>
       </div>
-     </div>
-      <script src="./JS/menu.js"></script>
-      <script src="./JS/modal.js"></script>
-      <script src="./js/form-validation.js"></script>
-    </body>
+    </main>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/form-validation.js"></script>
+    <script src="./js/local-storage.js"></script>
+  </body>
 </html>
+
