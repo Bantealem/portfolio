@@ -1,65 +1,60 @@
-# Portfolio-setup-and-mobile-version-skeleton
+![](https://img.shields.io/badge/Portfolio-blue)
 
-Set up of my personal portfolio project!  <br>
-This portfolio website is a key job searching tool for a web developer. 
-Link to portfolio:
+# Portfolio
 
+> This is a portfolio application that gives details information about my skills and past experiences.
 
 
 ## Built With
 
-- HTML
-- CSS
-
-
-## Screenshots
-
-### About myself
-![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture.PNG?raw=true)
-### Contact me
-![App Screenshot](https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton/blob/contact-me/Screenshots/Capture-6.PNG?raw=true)
-
+- `HTML`
+- `Css`
+- `Github Pages` 
 
 
 ## Getting Started
- Inorder to be able to set this up locally and eventually run it, follow the steps;
-- Open your Gitbash or your code editor's terminal and run the command git clone https://github.com/Bantealem/Portfolio-setup-and-mobile-version-skeleton
-- Then you can pull the work from github to Your local machine using the git pull command.
 
-## Deployment
+##Live Demo
 
-To deploy this project run
+[![](https://img.shields.io/badge/Live-Demo-blue)](https://bantealem.github.io/my-portfolio/)
 
-```bash
-  npm run deploy
-```
 
-https://bantealem.github.io/Portfolio-setup-and-mobile-version-skeleton/
+To get a local copy up and running follow these simple example steps.
 
-## Author
+### Clone this repository 
+- `https://github.com/Bantealem/my-portfolio.git`
 
-👤 **Author**
+- Open the index.html in your prefered browser
+
+### Right click to inspect and choose mobile version from developer tools to view the mobile version
+
+
+
+
+## Authors
+
+👤 **Bantealem Geto**
 
 - GitHub: [Bantealem](https://github.com/Bantealem)
 - Twitter: [Bantealem](https://twitter.com/BantealemG)
 - LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
 
- **Petro Lesapiti**
-- GitHub: [Bantealem](https://github.com/Bantealem)
-- Twitter: [Bantealem](https://twitter.com/BantealemG)
-- LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
+👤 **Nii Darku**
 
-
-
+- GitHub: [@niicode](https://github.com/niicode)
+- Twitter: [@_niicode](https://twitter.com/_niicode)
+- LinkedIn: [Nii Darku](https://linkedin.com/in/nii-darku-dodoo-082018148/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-
-## Show your support
- 👍 if you like my project
+Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 
-God
+- Microverse 
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
