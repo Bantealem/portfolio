@@ -24,13 +24,19 @@
 
 [Live Demo Link](https://bantealem.github.io/personal-portfolio/)
 
-## Mobile-Screenshots
 
-![Photo_image](/assets/img/mobile-screenshot.png)
+![Photo_image](/assets/images/img1.png)
 
-## Desktop-Screenshots
+![Photo_image](/assets/images/img2.png)
 
-![Photo_image](/assets/img/desktop-screenshot.png)
+![Photo_image](/assets/images/img3.png)
+
+![Photo_image](/assets/images/img4.png)
+
+![Photo_image](/assets/images/img5.png)
+
+![Photo_image](/assets/images/img6.png)
+![Photo_image](/assets/images/img7.png)
 
 ## Getting Started
 
@@ -55,7 +61,7 @@ To get a local copy up and running follow these simple example steps.
   git clone https://github.com/Bantealem/portfolio.git
   ```
 
-- Once finished you should see a new folder called **zikazaki-folio** in your current directory.
+- Once finished you should see a new folder called **Bantealem portfolio** in your current directory.
 - Start customizing the project so it fits your personal preferences and needs.
 - Enjoy your new professional portfolio!
 
@@ -69,7 +75,7 @@ $ npm install
 
 ## Authors
 
-👤 **Zakariya Al-Khamisi**
+👤 **Bantealem Geto**
 
 - GitHub: [Bantealem](https://github.com/Bantealem)
 - Twitter: [Bantealem](https://twitter.com/BantealemG)
