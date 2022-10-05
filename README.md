@@ -24,8 +24,9 @@
 
 [Live Demo Link](https://bantealem.github.io/personal-portfolio/)
 
+## screenshots
 
-![Photo_image](/screenshots/img1.png)
+![Photo_image](/screenshots/img1.PNG)
 
 ![Photo_image](/screenshots/img2.png)
 
