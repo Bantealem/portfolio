@@ -25,19 +25,19 @@
 [Live Demo Link](https://bantealem.github.io/personal-portfolio/)
 
 
-![Photo_image](/assets/images/img1.png)
+![Photo_image](/screenshots/img1.png)
 
-![Photo_image](/assets/images/img2.png)
+![Photo_image](/screenshots/img2.png)
 
-![Photo_image](/assets/images/img3.png)
+![Photo_image](/screenshots/img3.png)
 
-![Photo_image](/assets/images/img4.png)
+![Photo_image](/screenshots/img4.png)
 
-![Photo_image](/assets/images/img5.png)
+![Photo_image](/screenshots/img5.png)
 
-![Photo_image](/assets/images/img6.png)
+![Photo_image](/screenshots/img6.png)
 
-![Photo_image](/assets/images/img7.png)
+![Photo_image](/screenshots/img7.png)
 
 ## Getting Started
 
